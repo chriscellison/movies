@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JSON FILM LIST</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="file:///C:/Users/Internet/web-development/jonathan/films.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Master Works</h1>
+
+    <div id="control">
+
+      <button id="ctrlbtn" type="button" class="btn btn-default" onclick="loadFilms()">Load films</button>
+
+    </div>
+
+    <div id="main">
+    
+      <p>Films</p>
+    
+      <table id="films" class="table table-hover">
+      <!-- dynamic content placed here -->
+      </table>
+    </div>
+
+    <div id="links">
+   
+      <p>Links</p>
+   
+      <table id="sub" class="table table-hover">
+        <!-- dynamic content placed here -->
+      </table>
+    </div>
+  </div>
+
+
+<script>
+
+function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+}
+
+function loadFilms() {
+
+  // Grab the json file
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET", "file:///C:/Users/Internet/web-development/jonathan/master-works.json", false);
+  xhttp.send();
+
+  //Store json string
+  window.localStorage.setItem('films', xhttp.responseText);
+  
+  // Variable to construct dynamic table
+  var filmsTable="<tr><th>Film</th><th>Title</th><th>Select</th></tr>";
+  
+  // Create object from json
+  var filmsObj = JSON.parse(window.localStorage.getItem('films'));
+  
+  for (i = 0; i < filmsObj._embedded.masterWorks.length; i++) {
+   
+    filmsTable += "<tr><td>" +
+                   filmsObj._embedded.masterWorks[i].title +
+                   "</td><td>" +
+                   filmsObj._embedded.masterWorks[i].year +
+                   "</td><td>" +
+                   '<span class="fa fa-arrow-circle-right " onclick="loadLinks(' + i + ')"></span>' +
+                   "</td></tr>";
+ 
+  }
+  
+  // Add content to films table
+  document.getElementById("films").innerHTML = filmsTable;  
+   
+}
+
+function loadLinks(idx) {
+
+  var linksTable="<tr><th>Description</th><th>link</th></tr>";
+  
+  var linksObj = JSON.parse(window.localStorage.getItem('films'));
+  
+  var p = linksObj._embedded.masterWorks[idx]._links;
+   
+  for (var key in p) {
+    if (p.hasOwnProperty(key)) {
+      //console.info(key + ': ' + p[key].href);
+      
+      linksTable += "<tr><td>" +
+              key +
+              "</td><td>" +
+              //p[key].href +
+              
+              '<a href="' + p[key].href + '">' + p[key].href + '</a>' +
+              
+              "</td></tr>";
+    }
+  }
+  
+  document.getElementById("sub").innerHTML = linksTable;  
+
+  toggle_visibility('links');
+
+}
+
+
+
+
+</script>
+
+</body>
+</html>

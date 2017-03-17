@@ -1,0 +1,166 @@
+{
+  "_links" : {
+    "medias" : {
+      "href" : "http://localhost:8080/media/medias"
+    },
+    "certificationBoxsetTWorks" : {
+      "href" : "http://localhost:8080/media/certificationBoxsetTWorks"
+    },
+    "actorMasterWorks" : {
+      "href" : "http://localhost:8080/media/actorMasterWorks"
+    },
+    "genreMasterWorks" : {
+      "href" : "http://localhost:8080/media/genreMasterWorks"
+    },
+    "boxsetMasterWorkDetails" : {
+      "href" : "http://localhost:8080/media/boxsetMasterWorkDetails"
+    },
+    "mediaCollectionTws" : {
+      "href" : "http://localhost:8080/media/mediaCollectionTws"
+    },
+    "languageMasterWorks" : {
+      "href" : "http://localhost:8080/media/languageMasterWorks"
+    },
+    "certificationTransWorks" : {
+      "href" : "http://localhost:8080/media/certificationTransWorks"
+    },
+    "languageBoxsetMWorks" : {
+      "href" : "http://localhost:8080/media/languageBoxsetMWorks"
+    },
+    "franchiseMasterWorks" : {
+      "href" : "http://localhost:8080/media/franchiseMasterWorks"
+    },
+    "actors" : {
+      "href" : "http://localhost:8080/media/actors"
+    },
+    "languages" : {
+      "href" : "http://localhost:8080/media/languages"
+    },
+    "basicAudioFormats" : {
+      "href" : "http://localhost:8080/media/basicAudioFormats"
+    },
+    "genreTransWorks" : {
+      "href" : "http://localhost:8080/media/genreTransWorks"
+    },
+    "categoryTransWorks" : {
+      "href" : "http://localhost:8080/media/categoryTransWorks"
+    },
+    "boxsetTransWorkContents" : {
+      "href" : "http://localhost:8080/media/boxsetTransWorkContents"
+    },
+    "mediaFormats" : {
+      "href" : "http://localhost:8080/media/mediaFormats"
+    },
+    "mediaCollections" : {
+      "href" : "http://localhost:8080/media/mediaCollections"
+    },
+    "languageBoxsetTWorks" : {
+      "href" : "http://localhost:8080/media/languageBoxsetTWorks"
+    },
+    "directorMasterWorks" : {
+      "href" : "http://localhost:8080/media/directorMasterWorks"
+    },
+    "mediaCollectionMws" : {
+      "href" : "http://localhost:8080/media/mediaCollectionMws"
+    },
+    "mediaCollectionBms" : {
+      "href" : "http://localhost:8080/media/mediaCollectionBms"
+    },
+    "companySoundtracks" : {
+      "href" : "http://localhost:8080/media/companySoundtracks"
+    },
+    "languageTransWorks" : {
+      "href" : "http://localhost:8080/media/languageTransWorks"
+    },
+    "certificationMasterWorks" : {
+      "href" : "http://localhost:8080/media/certificationMasterWorks"
+    },
+    "certificationBoxsetMWorks" : {
+      "href" : "http://localhost:8080/media/certificationBoxsetMWorks"
+    },
+    "mediaCollectionBts" : {
+      "href" : "http://localhost:8080/media/mediaCollectionBts"
+    },
+    "categoryMasterWorks" : {
+      "href" : "http://localhost:8080/media/categoryMasterWorks"
+    },
+    "franchises" : {
+      "href" : "http://localhost:8080/media/franchises"
+    },
+    "transWorkDetails" : {
+      "href" : "http://localhost:8080/media/transWorkDetails"
+    },
+    "boxsetTransWorks" : {
+      "href" : "http://localhost:8080/media/boxsetTransWorks"
+    },
+    "soundtracks" : {
+      "href" : "http://localhost:8080/media/soundtracks"
+    },
+    "genres" : {
+      "href" : "http://localhost:8080/media/genres"
+    },
+    "certifications" : {
+      "href" : "http://localhost:8080/media/certifications"
+    },
+    "audioFormats" : {
+      "href" : "http://localhost:8080/media/audioFormats"
+    },
+    "boxsetMasterWorks" : {
+      "href" : "http://localhost:8080/media/boxsetMasterWorks"
+    },
+    "franchiseTransWorks" : {
+      "href" : "http://localhost:8080/media/franchiseTransWorks"
+    },
+    "directorTransWorks" : {
+      "href" : "http://localhost:8080/media/directorTransWorks"
+    },
+    "audioFormatDetails" : {
+      "href" : "http://localhost:8080/media/audioFormatDetails"
+    },
+    "soundtrackCompanies" : {
+      "href" : "http://localhost:8080/media/soundtrackCompanies"
+    },
+    "basicSoundtracks" : {
+      "href" : "http://localhost:8080/media/basicSoundtracks"
+    },
+    "definitions" : {
+      "href" : "http://localhost:8080/media/definitions"
+    },
+    "boxsetTransWorkDetails" : {
+      "href" : "http://localhost:8080/media/boxsetTransWorkDetails"
+    },
+    "categories" : {
+      "href" : "http://localhost:8080/media/categories"
+    },
+    "transWorks" : {
+      "href" : "http://localhost:8080/media/transWorks"
+    },
+    "boxsetMasterWorkContents" : {
+      "href" : "http://localhost:8080/media/boxsetMasterWorkContents"
+    },
+    "categoryBoxsetMWorks" : {
+      "href" : "http://localhost:8080/media/categoryBoxsetMWorks"
+    },
+    "categoryBoxsetTWorks" : {
+      "href" : "http://localhost:8080/media/categoryBoxsetTWorks"
+    },
+    "mediaTypes" : {
+      "href" : "http://localhost:8080/media/mediaTypes"
+    },
+    "actorTransWorks" : {
+      "href" : "http://localhost:8080/media/actorTransWorks"
+    },
+    "masterWorks" : {
+      "href" : "http://localhost:8080/media/masterWorks"
+    },
+    "directors" : {
+      "href" : "http://localhost:8080/media/directors"
+    },
+    "masterWorkDetails" : {
+      "href" : "http://localhost:8080/media/masterWorkDetails"
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/media/profile"
+    }
+  }
+}

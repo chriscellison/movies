@@ -1,0 +1,169 @@
+{
+  "_embedded" : {
+    "masterWorks" : [ {
+      "title" : "STAR WARS - A NEW HOPE",
+      "year" : 1977,
+      "creationDate" : "2017-03-06T16:19:21.000+0000",
+      "modificationDate" : "2017-03-06T16:19:22.000+0000",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/media/masterWorks/41"
+        },
+        "masterWork" : {
+          "href" : "http://localhost:8080/media/masterWorks/41"
+        },
+        "actorList" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/actorList"
+        },
+        "franchiseList" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/franchiseList"
+        },
+        "sequelTo" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/sequelTo"
+        },
+        "certification" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/certification"
+        },
+        "prequelTo" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/prequelTo"
+        },
+        "genreList" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/genreList"
+        },
+        "category" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/category"
+        },
+        "language" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/language"
+        },
+        "remakeOf" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/remakeOf"
+        },
+        "remasterOf" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/remasterOf"
+        },
+        "boxsetMasterWorkContentList" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/boxsetMasterWorkContentList"
+        },
+        "directorList" : {
+          "href" : "http://localhost:8080/media/masterWorks/41/directorList"
+        }
+      }
+    }, {
+      "title" : "STAR WARS - THE EMPIRE STRIKES BACK",
+      "year" : 1980,
+      "creationDate" : "2017-03-06T16:19:22.000+0000",
+      "modificationDate" : "2017-03-06T16:19:22.000+0000",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/media/masterWorks/43"
+        },
+        "masterWork" : {
+          "href" : "http://localhost:8080/media/masterWorks/43"
+        },
+        "actorList" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/actorList"
+        },
+        "franchiseList" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/franchiseList"
+        },
+        "sequelTo" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/sequelTo"
+        },
+        "certification" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/certification"
+        },
+        "prequelTo" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/prequelTo"
+        },
+        "genreList" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/genreList"
+        },
+        "category" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/category"
+        },
+        "language" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/language"
+        },
+        "remakeOf" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/remakeOf"
+        },
+        "remasterOf" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/remasterOf"
+        },
+        "boxsetMasterWorkContentList" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/boxsetMasterWorkContentList"
+        },
+        "directorList" : {
+          "href" : "http://localhost:8080/media/masterWorks/43/directorList"
+        }
+      }
+    }, {
+      "title" : "STAR WARS - THE RETURN OF THE JEDI",
+      "year" : 1983,
+      "creationDate" : "2017-03-06T16:19:22.000+0000",
+      "modificationDate" : "2017-03-06T16:19:22.000+0000",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/media/masterWorks/44"
+        },
+        "masterWork" : {
+          "href" : "http://localhost:8080/media/masterWorks/44"
+        },
+        "actorList" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/actorList"
+        },
+        "franchiseList" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/franchiseList"
+        },
+        "sequelTo" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/sequelTo"
+        },
+        "certification" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/certification"
+        },
+        "prequelTo" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/prequelTo"
+        },
+        "genreList" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/genreList"
+        },
+        "category" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/category"
+        },
+        "language" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/language"
+        },
+        "remakeOf" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/remakeOf"
+        },
+        "remasterOf" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/remasterOf"
+        },
+        "boxsetMasterWorkContentList" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/boxsetMasterWorkContentList"
+        },
+        "directorList" : {
+          "href" : "http://localhost:8080/media/masterWorks/44/directorList"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/media/masterWorks"
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/media/profile/masterWorks"
+    },
+    "search" : {
+      "href" : "http://localhost:8080/media/masterWorks/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 3,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
